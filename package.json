@@ -1,0 +1,12 @@
+{
+  "name": "auctio",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "shared/*"
+  ],
+  "scripts": {
+    "dev:dashboard": "bun --filter '@auctio/dashboard' dev",
+    "lint": "bun --filter '*' lint"
+  }
+}
